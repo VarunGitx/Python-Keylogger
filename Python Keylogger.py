@@ -46,7 +46,7 @@ def sendMail(message):                     #this fuction smtp server details and
             server.starttls(context=context)
             server.ehlo()
             server.login(sender_emailAdd, password)
-            server.sendmail(sender_emailAdd, receiver_emailAdd, message) #takes te message and sends email using server.sendmail function
+            server.sendmail(sender_emailAdd, receiver_emailAdd, message) #takes the message and sends email using server.sendmail function
         print("*Email Has Been Sent*")
     except Exception as e:                                        #if any exceptions they are printed 
         print(e)
